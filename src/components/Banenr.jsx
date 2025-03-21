@@ -6,7 +6,7 @@ const Banenr = ({query ,handleInputChange }) => {
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 md:py-24 py-14">
       <h1 className="text-5xl font-bold text-primary mb-3">
-        Find Your <span className="text-blue">New Job</span> Today
+        Find Your <span className="text-blue">New Jobs</span> Today
       </h1>
       <p className="text-lg text-black/70 mb-8">
         Thousands Of jobs in the computer, engineering and technology sections are waiting for you
@@ -34,7 +34,7 @@ const Banenr = ({query ,handleInputChange }) => {
            />
             <FiMapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
           </div>
-          <button type='submit' className='bg-blue py-2 px-8 text-white md:rounded-s-none rounded '>Search</button>
+          <button type='submit' className='bg-blue py-2 px-8 text-gray-100 md:rounded-s-none rounded '>Search</button>
         </div>
       </form>
     </div>
