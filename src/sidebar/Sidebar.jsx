@@ -15,6 +15,7 @@ const Sidebar = ({ handleChange, handleClick }) => {
       <JobPostingData handleChange={handleChange} />
       <WorkExperince handleChange={handleChange} />
       <EmploymentType handleChange={handleChange} />
+      
     </div>
   );
 };
